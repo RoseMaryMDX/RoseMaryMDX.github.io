@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="" />
+    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IRqCzYX8FvF5B3ezUpvgKLv5z7" />
   <component name="ProjectViewState">
@@ -20,7 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/GitHub/RoseMaryMDX.github.io",
+    "last_opened_file_path": "D:/WZBC Web前端",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -37,8 +43,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670154620075</updated>
-      <workItem from="1670154621726" duration="876000" />
+      <workItem from="1670154621726" duration="2376000" />
     </task>
+    <task id="LOCAL-00001" summary="Create workspace.xml">
+      <created>1670155627764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670155627764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create workspace.xml" />
   </component>
 </project>
