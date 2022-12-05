@@ -1,45 +1,73 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--<!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。-->
 
-    <html lang="zh-CN">
+    <html lang="zh"> <!--<html>标签可告知浏览器其自身是一个 HTML 文档；lang 属性规定元素内容的语言。-->
 
-        <head> <!--页面的头部标记<head>-->
+        <head>
+        <!--
+            <head> 标签用于定义文档的头部，它是所有头部元素的容器；
+            <head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。
+        -->
 
-            <title>迷迭香Rosemary</title> <!--标题标记<title>。-->
-
-            <meta name=" keyname " content=" 迷迭香,Rosemary,前端大作业,网站设计 "> <!--设置页面关键字。-->
-            <meta name=" description " content=" 前端大作业，迷迭香博客 "> <!--设置页面描述。-->
-            <meta name=" generator " content=" Webstorm "> <!--设置编辑工具。-->
-            <meta name=" author " content=" 黄盈盈，水含瑾，余浩琰，虞薇男，张欣怡（按拼音排序） "> <!--设定作者信息。-->
-            <meta name=" robots " content=" none "> <!--限制搜索方式。-->
+            <base href=" https://rosemarymdx.github.io " target=" _blank ">
             <!--
-                限制搜索方式：
-                all：表示能搜索当前网页及其链接的网页；
-                index：表示能搜索当前网页；
-                nofollow：表示不能搜索与当前网页链接的网页；
-                noindex：表示不能搜索当前网页；
-                none：表示不能搜索当前网页及其链接的网页。
-            -->
-            <meta charset=" UTF-8 "> <!--（HTML5）设置网页文字及语言。-->
-            <meta name=" build " content=" 2022.12.04 "> <!--设定建立网站的日期。-->
-            <meta name=" copyright " content=" 迷迭香Rosemary "> <!--设定网页版权信息。-->
-            <meta name=" reply-to " content=" rosemarymdx@163.com,y15601379543@gmail.com "> <!--设定联系人的邮箱-->
-
-            <!--<base href=" https://rosemarymdx.github.io " target=" _blank "> <!--基底网址标记<base>，定义基底网址。-->
-            <!--
-                基底网址标记<base>，定义基底网址：
-                _parent：在上一级窗口打开，一般常用在分帧的框架页中；
-                _blank：在新窗口打开；
-                _self：在同一窗口打开，可以省略；
-                _top：在浏览器的整个窗口打开，忽略任何框架。
+                <base> 标签为页面上的所有链接规定默认地址或默认目标；
+                href 属性规定页面中所有相对链接的基准 URL；
+                target 属性规定在何处打开页面上的所有链接。
             -->
 
-            <link href=" css/index.css " type=" text/css " rel=" stylesheet ">
+            <link href=" css/index.css " rel=" stylesheet " type=" text/css " media=" all ">
+            <!--
+                <link> 标签定义文档与外部资源的关系；
+                href 属性规定被链接文档的位置；
+                rel 属性规定当前文档与被链接文档之间的关系；
+                type 属性规定被链接文档的 MIME 类型；
+                media 属性规定被链接文档将显示在什么设备上。
+            -->
+
+            <!--
+                <meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词；
+                charset 属性规定 HTML 文档的字符编码；
+                content 属性给出了与 http-equiv 或 name 属性相关的值；
+                name 属性规定元数据的名称；
+            -->
+            <meta charset=" UTF-8 "> <!--charset 属性规定 HTML 文档的字符编码。-->
+            <meta name=" author " content=" 黄盈盈，水含瑾，余浩琰，虞薇男，张欣怡（按拼音排序） ">
+            <!--name 属性中 author 值规定文档作者的姓名。-->
+            <meta name=" description " content=" 前端大作业，迷迭香博客 ">
+            <!--name 属性中 description 值规定页面的描述。搜索引擎可以选择此描述来显示搜索结果。-->
+            <meta name=" keyname " content=" 迷迭香,Rosemary,前端大作业,网站设计 ">
+            <!--name 属性中 keyname 值规定以逗号分隔的关键字列表 - 与页面相关（通知搜索引擎该页面的内容）。-->
+            <meta name=" generator " content=" Webstorm ">
+            <!--name 属性中 generator 值用于标明网页是什么软件做的-->
+            <meta name=" robots " content=" none ">
+            <!--name 属性中 robots 值用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。-->
+            <meta name=" build " content=" 2022.12.04 ">
+            <!--name 属性中 build 值通过设置可以设定网站建立的日期-->
+            <meta name=" copyright " content=" 迷迭香Rosemary ">
+            <!--name 属性中 copyright 值用于标注版权信息-->
+            <meta name=" reply-to " content=" rosemarymdx@163.com,y15601379543@gmail.com ">
+            <!--name 属性中 reply-to 值设定联系人的邮箱-->
+
+            <title> 迷迭香Rosemary </title> <!--<title> 元素可定义文档的标题。-->
 
         </head>
 
-        <body> <!--页面的主体标记<body>-->
+        <body>
+        <!--
+            body 元素定义文档的主体;
+            body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等）。
+        -->
 
-            <div>
+            <header>
+            <!--
+                <header> 标签定义文档的页眉（介绍信息）；
+                header 结构元素：通常用来展示网站的标题、企业或公司的logo图片、广告（Flash等格式）、网站导航条等。
+            -->
+                <nav>
+                <!--<nav> 标签定义导航链接的部分。-->
+                    
+                </nav>
+
                 <h1> 迷迭香Rosemary </h1>
                 <h2> <a href=" pages/firstcode.html "> 本站第一行代码展示 </a> </h2>
                 <h2> <a href=" pages/productionprocess.html "> 网站制作剪影 </a> </h2>
@@ -54,11 +82,38 @@
                 <h2> <a href=" pages/search.html "> 搜索 </a> </h2>
                 <h2> 夜间模式 </h2>
                 <h2> 登录 </h2>
-            </div>
+                <h2> 注册 </h2>
 
-            <div>
-            </div>
+            </header>
 
+            <aside>
+            <!--
+                <aside> 标签定义其所处内容之外的内容；
+                aside 结构元素：通常用来展示与当前网页或整个网站相关的一些辅助信息；
+                aside 结构元素可以有很多形式，其中最常见的形式是侧边栏。
+            -->
+
+            </aside>
+
+            <section>
+            <!--
+                <section> 标签定义文档中的节（ section 、区段）。比如章节、页眉、页脚或文档中的其他部分；
+                section 结构元素：一个网页中要显示的主体内容通常被放置在 section 结构元素中，
+                每个 section 结构元素都应该有一个标题来显示当前展示的主要内容的标题信息；
+                每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
+                用来显示网页主体内容中每一个相对独立的部分。
+            -->
+
+            </section>
+
+            <footer>
+            <!--
+                footer 结构元素：通常，每一个网页中都具有 footer 结构元素，
+                用来放置网站的版权声明和备案信息等与法律相关的信息，
+                也可以放置企业的联系电话和传真的联系信息。
+            -->
+
+            </footer>
         </body>
 
     </html>
