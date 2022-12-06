@@ -1,3 +1,7 @@
+<!--
+    网页种类：主页、表单（注册、登录、留言板）、表格（自我介绍）、下载页面、音乐播放页面、电子书页面
+-->
+
 <!DOCTYPE html> <!--<!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。-->
 
     <html lang="zh"> <!--<html>标签可告知浏览器其自身是一个 HTML 文档；lang 属性规定元素内容的语言。-->
@@ -8,7 +12,7 @@
             <head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。
         -->
 
-            <base href=" https://rosemarymdx.github.io " target=" _blank ">
+            <!--<base href=" https://rosemarymdx.github.io " target=" _blank ">
             <!--
                 <base> 标签为页面上的所有链接规定默认地址或默认目标；
                 href 属性规定页面中所有相对链接的基准 URL；
@@ -33,7 +37,7 @@
             <meta charset=" UTF-8 "> <!--charset 属性规定 HTML 文档的字符编码。-->
             <meta name=" author " content=" 黄盈盈，水含瑾，余浩琰，虞薇男，张欣怡（按拼音排序） ">
             <!--name 属性中 author 值规定文档作者的姓名。-->
-            <meta name=" description " content=" 前端大作业，迷迭香博客 ">
+            <meta name=" description " content=" 前端大作业，迷迭香Rosemary博客 ">
             <!--name 属性中 description 值规定页面的描述。搜索引擎可以选择此描述来显示搜索结果。-->
             <meta name=" keyname " content=" 迷迭香,Rosemary,前端大作业,网站设计 ">
             <!--name 属性中 keyname 值规定以逗号分隔的关键字列表 - 与页面相关（通知搜索引擎该页面的内容）。-->
@@ -63,28 +67,91 @@
                 <header> 标签定义文档的页眉（介绍信息）；
                 header 结构元素：通常用来展示网站的标题、企业或公司的logo图片、广告（Flash等格式）、网站导航条等。
             -->
-                <nav>
-                <!--<nav> 标签定义导航链接的部分。-->
-                    
-                </nav>
 
-                <h1> 迷迭香Rosemary </h1>
-                <h2> <a href=" pages/firstcode.html "> 本站第一行代码展示 </a> </h2>
-                <h2> <a href=" pages/productionprocess.html "> 网站制作剪影 </a> </h2>
-                <h2> <a href=" pages/teammembers.html "> 小组成员介绍 </a> </h2>
-                <h2> <a href=" pages/notesdisplay.html "> 小组笔记展示 </a> </h2>
-                <h2> <a href=" pages/htmllabel.html "> 常用HTML标签查询 </a> </h2>
-                <h2> <a href=" pages/commonurl.html "> 常用网址 </a> </h2>
-                <h2> <a href=" pages/windowsimg.html "> 常用Windows系统下载 </a> </h2>
-                <h2> <a href=" pages/officesoftware.html "> 常用办公软件下载 </a> </h2>
-                <h2> <a href=" pages/leavemessage.html "> 留言板 </a> </h2>
-                <h2> <a href=" pages/musicplaying.html "> 音乐播放 </a> </h2>
-                <h2> <a href=" pages/search.html "> 搜索 </a> </h2>
-                <h2> 夜间模式 </h2>
-                <h2> 登录 </h2>
-                <h2> 注册 </h2>
+                <div class="container_16">
+
+                    <div class="logo">
+                        <h2> <strong> 迷迭香 </strong> Rosemary </h2>
+                    </div>
+
+                    <nav> <!--<nav> 标签定义导航链接的部分。-->
+                        <ul>
+                            <li><a href=" index.html " class="current"> 主页 </a></li>
+                            <li> <a href=" pages/firstcode.html "> 本站第一行代码展示 </a> </li>
+                            <li> <a href=" pages/productionprocess.html "> 网站制作剪影 </a> </li>
+                            <li> <a href=" pages/leavemessage.html "> 留言板 </a> </li>
+                            <li> <a href=" pages/musicplaying.html "> 音乐播放 </a> </li>
+                        </ul>
+                    </nav>
+
+                    <div id="faded">
+                        <div class="rap">
+                        </div>
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" rel="0">
+                                    <span >
+                                        <a href=" pages/teammembers.html "> 小组成员介绍 </a>
+                                    </span>
+                                </a>
+                                <a href="#" rel="1">
+                                    <span class="left">
+                                        <a href=" pages/notesdisplay.html "> 小组笔记展示 </a>
+                                    </span>
+                                </a>
+                                <a href="#" rel="2">
+                                     <span class="left">
+                                        <a href=" pages/htmllabel.html "> 常用HTML标签查询 </a>
+                                    </span>
+                                </a>
+                                <a href="#" rel="3">
+                                    <span class="left">
+                                        <a href=" pages/commonurl.html "> 常用网址 </a>
+                                    </span>
+                                </a>
+                                <a href="#" rel="4">
+                                    <span class="left">
+                                        <a href=" pages/windowsimg.html "> 常用Windows系统下载 </a>
+                                    </span>
+                                </a>
+                                <a href="#" rel="5">
+                                    <span class="left">
+                                        <a href=" pages/officesoftware.html "> 常用办公软件下载 </a>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <img src="images/extra-banner.png" alt="" class="extra-banner">
+                    </div>
+                </div>
+
+                <div>
+                    <ul>
+                        <li> <a href=" effect/index.html "> 效果 </a> </li>
+                        <li> <a href=" pages/search.html "> 搜索 </a> </li>
+                        <li> 夜间模式 </li>
+                        <li> <a href=" pages/signin.html "> 登录 </a> </li>
+                        <li> <a href=" pages/login.html "> 注册 </a> </li>
+                    </ul>
+                </div>
 
             </header>
+
+            <section>
+                <!--
+                    <section> 标签定义文档中的节（ section 、区段）。比如章节、页眉、页脚或文档中的其他部分；
+                    section 结构元素：一个网页中要显示的主体内容通常被放置在 section 结构元素中，
+                    每个 section 结构元素都应该有一个标题来显示当前展示的主要内容的标题信息；
+                    每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
+                    用来显示网页主体内容中每一个相对独立的部分。
+                -->
+                <nav>
+                    <ul>
+
+                    </ul>
+                </nav>
+            </section>
+
 
             <aside>
             <!--
@@ -95,16 +162,7 @@
 
             </aside>
 
-            <section>
-            <!--
-                <section> 标签定义文档中的节（ section 、区段）。比如章节、页眉、页脚或文档中的其他部分；
-                section 结构元素：一个网页中要显示的主体内容通常被放置在 section 结构元素中，
-                每个 section 结构元素都应该有一个标题来显示当前展示的主要内容的标题信息；
-                每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
-                用来显示网页主体内容中每一个相对独立的部分。
-            -->
 
-            </section>
 
             <footer>
             <!--
