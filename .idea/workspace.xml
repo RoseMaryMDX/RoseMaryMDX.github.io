@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml" />
+    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +65,7 @@
       <updated>1670154620075</updated>
       <workItem from="1670154621726" duration="7537000" />
       <workItem from="1670209726050" duration="15480000" />
-      <workItem from="1670237592148" duration="10143000" />
+      <workItem from="1670237592148" duration="11127000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
