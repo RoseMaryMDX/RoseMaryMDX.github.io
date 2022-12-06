@@ -6,6 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/2021/06/10/hello-world/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/2021/06/10/测试文章/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/2021/06/10/测试文章/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/archives/2021/06/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/archives/2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/archives/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/categories/Java/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/css/gitalk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/img/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/img/police_beian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/boot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/color-schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/img-lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/leancloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/local-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/js/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/lib/hint/hint.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/links/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/local-search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/tags/原创/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/effect/xml/local-search.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +98,7 @@
       <updated>1670154620075</updated>
       <workItem from="1670154621726" duration="7537000" />
       <workItem from="1670209726050" duration="15480000" />
-      <workItem from="1670237592148" duration="11127000" />
+      <workItem from="1670237592148" duration="12614000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
