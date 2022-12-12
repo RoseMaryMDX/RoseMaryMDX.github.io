@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pages/notesdisplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/notesdisplay/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/htmllabel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/htmllabel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/officesoftware.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/downloads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/windowsimg.html" beforeDir="false" />
     </list>
-    <list id="4b56cba5-3666-4d06-a385-9e4493b9f27b" name="Y1560 进行的变更" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-    </list>
+    <list id="4b56cba5-3666-4d06-a385-9e4493b9f27b" name="Y1560 进行的变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,36 +34,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/docs/index.html">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="4" end1="4" start2="5" end2="6" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="5" end1="5" start2="7" end2="8" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="10" end1="10" start2="13" end2="14" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="16" end1="16" start2="20" end2="21" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="24" end1="24" start2="29" end2="30" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="47" end1="47" start2="53" end2="54" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="48" end1="48" start2="55" end2="56" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="49" end1="49" start2="57" end2="58" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="54" end1="54" start2="63" end2="64" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="59" end1="59" start2="69" end2="70" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="60" end1="60" start2="71" end2="72" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="63" end1="63" start2="75" end2="76" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="72" end1="72" start2="85" end2="86" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="84" end1="85" start2="98" end2="99" changelist="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" />
-        <range start1="111" end1="111" start2="125" end2="126" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="112" end1="112" start2="127" end2="128" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="123" end1="123" start2="139" end2="140" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="131" end1="131" start2="148" end2="149" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="135" end1="135" start2="153" end2="154" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="136" end1="136" start2="155" end2="156" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="144" end1="144" start2="164" end2="165" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="152" end1="152" start2="173" end2="174" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-        <range start1="153" end1="153" start2="175" end2="176" changelist="4b56cba5-3666-4d06-a385-9e4493b9f27b" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,6 +61,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages\htmllabel" />
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages" />
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io" />
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\docs\pages\notesdisplay" />
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\docs\pages\index" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -103,7 +83,7 @@
       <workItem from="1670237592148" duration="12614000" />
       <workItem from="1670785343704" duration="81000" />
       <workItem from="1670785445124" duration="84000" />
-      <workItem from="1670809688660" duration="2178000" />
+      <workItem from="1670809688660" duration="6909000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
