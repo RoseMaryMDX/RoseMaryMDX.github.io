@@ -39,7 +39,7 @@
                 通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白；
                 使用 <base> 标签可以改变这一点；
                 浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL；
-                这其中包括 <a>、<img>、<link>、<form> 标签中的 URL；
+                这其中包括 <a>、<images>、<link>、<form> 标签中的 URL；
                 注释：<base> 标签必须位于 head 元素内部。
                 href 属性规定页面中所有相对链接的基准 URL；
                 target 属性规定在何处打开页面上的所有链接。
@@ -91,7 +91,7 @@
                 理论上，可以使用任何字符编码，但没有浏览器能够理解所有编码；
                 字符编码使用得越广泛，浏览器理解它的机会就越大。
             -->
-            <meta name=" author " content=" 黄盈盈，水含瑾，余浩琰，虞薇男，张欣怡（按拼音排序） ">
+            <meta name=" author " content=" 黄黎敏（学号22116101235），黄盈盈，史佳敏，水含瑾，严雨蒙，余浩琰，虞薇男，张欣怡（按拼音排序） ">
             <!--name 属性中 author 值规定文档作者的姓名。-->
             <meta name=" description " content=" 前端大作业，迷迭香Rosemary博客 ">
             <!--name 属性中 description 值规定页面的描述，搜索引擎可以选择此描述来显示搜索结果。-->
@@ -258,11 +258,12 @@
 
                 </nav>
 
+                <!--搜索栏HTML（CSS前缀aa）-->
                 <div>
-                    <div class="container">
-                        <form action="" class="parent">
-                            <input type="text" class="search" placeholder="搜索">
-                            <input type="button" name="" id="" class="btn">
+                    <div class="aacontainer">
+                        <form action="" class="aaparent">
+                            <input type="text" class="aasearch" placeholder="搜索">
+                            <input type="button" name="" id="" class="aabtn">
                         </form>
                     </div>
                 </div>
