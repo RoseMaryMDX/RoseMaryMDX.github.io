@@ -79,7 +79,7 @@
       <workItem from="1670237592148" duration="12614000" />
       <workItem from="1670785343704" duration="81000" />
       <workItem from="1670785445124" duration="84000" />
-      <workItem from="1670809688660" duration="16615000" />
+      <workItem from="1670809688660" duration="18407000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
@@ -108,5 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Create workspace.xml" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RoseMaryMDX_github_io$index_html.dat" NAME="index.html 覆盖结果" MODIFIED="1670835058155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
