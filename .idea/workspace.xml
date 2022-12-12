@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/htmllabel.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/htmllabel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/officesoftware.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/downloads.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/windowsimg.html" beforeDir="false" />
     </list>
     <list id="4b56cba5-3666-4d06-a385-9e4493b9f27b" name="Y1560 进行的变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +80,7 @@
       <workItem from="1670237592148" duration="12614000" />
       <workItem from="1670785343704" duration="81000" />
       <workItem from="1670785445124" duration="84000" />
-      <workItem from="1670809688660" duration="6909000" />
+      <workItem from="1670809688660" duration="9411000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
