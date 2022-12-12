@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,7 @@
       <workItem from="1670237592148" duration="12614000" />
       <workItem from="1670785343704" duration="81000" />
       <workItem from="1670785445124" duration="84000" />
-      <workItem from="1670809688660" duration="20119000" />
+      <workItem from="1670809688660" duration="20867000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
