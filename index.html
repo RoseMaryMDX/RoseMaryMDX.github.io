@@ -91,7 +91,8 @@
                 理论上，可以使用任何字符编码，但没有浏览器能够理解所有编码；
                 字符编码使用得越广泛，浏览器理解它的机会就越大。
             -->
-            <meta name=" author " content=" 黄黎敏（学号22116101235），黄盈盈，史佳敏，水含瑾，严雨蒙，余浩琰，虞薇男，张欣怡（按拼音排序） ">
+            <meta name=" author " content=" 黄黎敏（学号22116101235），黄盈盈（学号22116101252），史佳敏（学号22116101250），水含瑾（学号22116101224），
+            严雨蒙（学号22116101267），余浩琰（学号22116101275），虞薇男（学号22116101244），张欣怡（学号22116101232）（按拼音排序） ">
             <!--name 属性中 author 值规定文档作者的姓名。-->
             <meta name=" description " content=" 前端大作业，迷迭香Rosemary博客 ">
             <!--name 属性中 description 值规定页面的描述，搜索引擎可以选择此描述来显示搜索结果。-->
@@ -259,13 +260,18 @@
                 </nav>
 
                 <!--搜索栏HTML（CSS前缀aa）-->
-                <div>
-                    <div class="aacontainer">
-                        <form action="" class="aaparent">
-                            <input type="text" class="aasearch" placeholder="搜索">
-                            <input type="button" name="" id="" class="aabtn">
-                        </form>
-                    </div>
+
+                <div class="topnav">
+                    <a class="active" href="#home">主页</a>
+                    <a href="#about">关于</a>
+                    <a href="#contact">联系我们</a>
+                    <input type="text" placeholder="搜索..">
+                </div>
+
+                <div style="padding-left:16px">
+                    <h2>响应式搜索菜单</h2>
+                    <p>导航栏里面有一个搜索框。</p>
+                    <p>调整浏览器窗口的大小, 查看效果。</p>
                 </div>
 
             </header>
