@@ -1,19 +1,24 @@
 <!--
     网页种类：主页、表单（注册、登录、留言板）、表格（自我介绍）、下载页面、音乐播放页面、电子书页面
 -->
+
 <!DOCTYPE html> <!--<!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。-->
+
     <html lang="zh"> <!--<html>标签可告知浏览器其自身是一个 HTML 文档；lang 属性规定元素内容的语言。-->
+
         <head>
         <!--
             <head> 标签用于定义文档的头部，它是所有头部元素的容器；
             <head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。
         -->
+
             <base href=" https://rosemarymdx.github.io " target=" _blank ">
             <!--
                 <base> 标签为页面上的所有链接规定默认地址或默认目标；
                 href 属性规定页面中所有相对链接的基准 URL；
                 target 属性规定在何处打开页面上的所有链接。
             -->
+
             <link href=" css/index.css " rel=" stylesheet " type=" text/css " media=" all ">
             <!--
                 <link> 标签定义文档与外部资源的关系；
@@ -22,6 +27,7 @@
                 type 属性规定被链接文档的 MIME 类型；
                 media 属性规定被链接文档将显示在什么设备上。
             -->
+
             <!--
                 <meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词；
                 charset 属性规定 HTML 文档的字符编码；
@@ -45,22 +51,29 @@
             <!--name 属性中 copyright 值用于标注版权信息-->
             <meta name=" reply-to " content=" rosemarymdx@163.com,y15601379543@gmail.com ">
             <!--name 属性中 reply-to 值设定联系人的邮箱-->
+
             <title> 迷迭香Rosemary </title> <!--<title> 元素可定义文档的标题。-->
+
         </head>
+
         <body>
         <!--
             body 元素定义文档的主体;
             body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等）。
         -->
+
             <header>
             <!--
                 <header> 标签定义文档的页眉（介绍信息）；
                 header 结构元素：通常用来展示网站的标题、企业或公司的logo图片、广告（Flash等格式）、网站导航条等。
             -->
+
                 <div class="container_16">
+
                     <div class="logo">
                         <h2> <strong> 迷迭香 </strong> Rosemary </h2>
                     </div>
+
                     <nav> <!--<nav> 标签定义导航链接的部分。-->
                         <ul>
                             <li><a href=" index.html " class="current"> 主页 </a></li>
@@ -70,6 +83,7 @@
                             <li> <a href=" pages/musicplaying.html "> 音乐播放 </a> </li>
                         </ul>
                     </nav>
+
                     <div id="faded">
                         <div class="rap">
                         </div>
@@ -82,7 +96,7 @@
                                 </a>
                                 <a href="#" >
                                     <span class="left">
-                                        <a href=" pages/notesdisplay.html "> 小组笔记展示 </a>
+                                        <a href=" /notesdisplay/ "> 课程笔记展示 </a>
                                     </span>
                                 </a>
                                 <a href="#" >
@@ -109,7 +123,9 @@
                         </ul>
                         <img src="images/extra-banner.png" alt="" class="extra-banner">
                     </div>
+
                 </div>
+
                 <div>
                     <ul>
                         <li> <a href=" /effect/ "> 效果 </a> </li>
@@ -121,6 +137,7 @@
                 </div>
 
             </header>
+
             <section>
                 <!--
                     <section> 标签定义文档中的节（ section 、区段）。比如章节、页眉、页脚或文档中的其他部分；
@@ -129,11 +146,14 @@
                     每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
                     用来显示网页主体内容中每一个相对独立的部分。
                 -->
+
                 <nav>
                     <ul>
                     </ul>
                 </nav>
+
             </section>
+
             <aside>
             <!--
                 <aside> 标签定义其所处内容之外的内容；
@@ -142,6 +162,7 @@
             -->
 
             </aside>
+
             <footer>
             <!--
                 footer 结构元素：通常，每一个网页中都具有 footer 结构元素，
@@ -150,5 +171,7 @@
             -->
 
             </footer>
+
         </body>
+
     </html>
