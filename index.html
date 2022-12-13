@@ -33,7 +33,7 @@
             提示：请记住始终为文档规定标题！
         -->
 
-            <base href=" https://rosemarymdx.github.io " target=" _blank ">
+            <!--<base href=" https://rosemarymdx.github.io " target=" _blank ">
             <!--
                 <base> 标签为页面上的所有链接规定默认地址或默认目标；
                 通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白；
@@ -112,6 +112,8 @@
             <meta name=" reply-to " content=" rosemarymdx@163.com,y15601379543@gmail.com ">
             <!--name 属性中 reply-to 值设定联系人的邮箱。-->
 
+            <script src=" JavaScript/index.js "></script>
+
             <title> 迷迭香Rosemary </title> <!--<title> 元素可定义文档的标题。-->
 
         </head>
@@ -122,21 +124,35 @@
             body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等）。
         -->
 
-            <header class="topnav">
+            <header>
             <!--
                 <header> 标签定义文档的页眉（介绍信息）；
                 header 结构元素：通常用来展示网站的标题、企业或公司的logo图片、广告（Flash等格式）、网站导航条等。
             -->
+                <nav class=" topnav "> <!--<nav> 标签定义导航链接的部分；提示：如果文档中有“前后”按钮，则应该把它放到 <nav> 元素中。-->
+                    <span class=" active " onclick="openNav()">&#9776; 迷迭香 Rosemary </span>
 
-                <nav> <!--<nav> 标签定义导航链接的部分；提示：如果文档中有“前后”按钮，则应该把它放到 <nav> 元素中。-->
-                    <a class="active" href=" / "> 迷迭香 Rosemary </a>
-                    <!--<h1> - <h6> 标签可定义标题；
+                    <!--
+                        <h1> - <h6> 标签可定义标题；
                         <h1> 定义最大的标题，<h6> 定义最小的标题；
                         由于 h 元素拥有确切的语义，因此请您慎重地选择恰当的标签层级来构建文档的结构；
                         因此，请不要利用标题标签来改变同一行中的字体大小；
                         相反，我们应当使用层叠样式表定义来达到漂亮的显示效果。
                     -->
 
+                    <!--
+                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
+                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
+                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
+                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
+                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
+                        提示：请使用 CSS 来设置链接的样式。
+                        <a> 标签的 href 属性用于指定超链接目标的 URL；
+                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
+                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
+                        注意：<a> 标签中必须提供 href 属性或 name 属性。
+                    -->
+                    <a href=" / "> 首页 </a>
                     <!--
                         <a> 标签定义超链接，用于从一张页面链接到另一张页面；
                         <a> 元素最重要的属性是 href 属性，它指示链接的目标；
@@ -164,9 +180,6 @@
                     -->
                     <a href=" pages/productionprocess.html "> 网站制作剪影 </a>
                     <!--
-                        <li> 标签定义列表项目；
-                        <li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中；
-                        提示：请使用 CSS 来定义列表和列表项目的类型。
                         <a> 标签定义超链接，用于从一张页面链接到另一张页面；
                         <a> 元素最重要的属性是 href 属性，它指示链接的目标；
                         提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
@@ -180,9 +193,6 @@
                     -->
                     <a href=" pages/leavemessage.html "> 留言板 </a>
                     <!--
-                        <li> 标签定义列表项目；
-                        <li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中；
-                        提示：请使用 CSS 来定义列表和列表项目的类型。
                         <a> 标签定义超链接，用于从一张页面链接到另一张页面；
                         <a> 元素最重要的属性是 href 属性，它指示链接的目标；
                         提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
@@ -196,9 +206,6 @@
                     -->
                     <a href=" pages/musicplaying.html "> 音乐播放 </a>
                     <!--
-                        <li> 标签定义列表项目；
-                        <li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中；
-                        提示：请使用 CSS 来定义列表和列表项目的类型。
                         <a> 标签定义超链接，用于从一张页面链接到另一张页面；
                         <a> 元素最重要的属性是 href 属性，它指示链接的目标；
                         提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
@@ -210,12 +217,19 @@
                         如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
                         注意：<a> 标签中必须提供 href 属性或 name 属性。
                     -->
-
                     <a href=" pages/signin.html "> 登录 </a>
                     <a href=" pages/login.html "> 注册 </a>
                     <input type="text" placeholder="搜索..">
-
                 </nav>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href=" pages/teammembers.html "> 小组成员介绍 </a>
+                    <a href=" /pages/notesdisplay/ "> 课程笔记展示 </a>
+                    <a href=" pages/htmllabel/ "> 常用HTML标签查询 </a>
+                    <a href=" pages/commonurl.html "> 常用网址 </a>
+                    <a href="pages/downloads.html "> 常用下载 </a>
+                </div>
 
             </header>
 
@@ -227,7 +241,9 @@
                     每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
                     用来显示网页主体内容中每一个相对独立的部分。
                 -->
-                <div>
+
+
+                <div class="juzhong">
                     <!--
                         <div> 可定义文档中的分区或节（division/section）；
                         <div> 标签可以把文档分割为独立的、不同的部分。它可以用作严格的组织工具，并且不使用任何格式与其关联；
@@ -248,19 +264,13 @@
                         <strong> 把文本定义为语气更强的强调的内容；
                         <em> 把文本定义为强调的内容。
                     -->
+                    <h1 class="main">迷迭香Rosemary 小组博客</h1>
                 </div>
 
-                <ul>
-                    <li> <a href=" pages/teammembers.html "> 小组成员介绍 </a> </li>
-                    <li> <a href=" /pages/notesdisplay/ "> 课程笔记展示 </a> </li>
-                    <li> <a href=" pages/htmllabel/ "> 常用HTML标签查询 </a> </li>
-                    <li> <a href=" pages/commonurl.html "> 常用网址 </a> </li>
-                    <li> <a href="pages/downloads.html "> 常用下载 </a> </li>
-                </ul>
+
 
                 <ul> <!--<ul> 标签定义无序列表；提示：请使用样式来定义列表的类型。-->
-                    <li> <a href=" pages/musicplaying.html "> 音乐播放 </a> </li>
-                    <!--
+                                        <!--
                         <li> 标签定义列表项目；
                         <li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中；
                         提示：请使用 CSS 来定义列表和列表项目的类型。
@@ -279,13 +289,6 @@
 
 
                 <!--搜索栏HTML（CSS前缀aa）-->
-
-                <div style="padding-left:16px">
-                    <h2>响应式搜索菜单</h2>
-                    <p>导航栏里面有一个搜索框。</p>
-                    <p>调整浏览器窗口的大小, 查看效果。</p>
-                </div>
-
                 <nav>
                     <ul>
                     </ul>
@@ -297,6 +300,7 @@
                 aside 结构元素：通常用来展示与当前网页或整个网站相关的一些辅助信息；
                 aside 结构元素可以有很多形式，其中最常见的形式是侧边栏。
             -->
+
             </aside>
             <footer>
             <!--
