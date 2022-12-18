@@ -1,0 +1,325 @@
+@charset "UTF-8";    /*把样式表的编码设置为统一码 UTF-8*/
+
+@font-face {    /*指定一种名为 "JetBrains Mono" 的字体，并规定可以找到它的 URL*/
+    font-family: 'JetBrains Mono';    /*定义字体名称*/
+    src:url('../fonts/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff');    /*定义字体文件路径*/
+}
+
+* {    /*针对所有的HTML元素定义样式*/
+    margin: 0;    /*外边距为0px*/
+    padding: 0;    /*内边距为0px*/
+    box-sizing: border-box;    /*盒子的宽度值和高度值包含元素的内边距和边框*/
+}
+
+body{
+    margin:0 auto;    /*页面自动居中对齐*/
+    font-family: "JetBrains Mono";    /*字体为"JetBrains Mono"*/
+    background: lightpink top center no-repeat border-box fixed url(../images/default.png);
+        /*
+            background 简写属性在一个声明中设置所有的背景属性。
+            按照设置顺序，依次是：
+                background-color 属性color_name 值；background-position 属性top center 值；background-repeat 属性no-repeat 值；
+                background-origin 属性border-box 值；background-attachment 属性fixed 值；background-image 属性url('URL') 值。
+            lightpink：背景颜色为lightpink；
+            top center：背景图像顶端居中对齐；
+            no-repeat：背景图像仅显示一次，不重复；
+            border-box：背景图像相对于边框盒来定位；
+            fixed：当页面的其余部分滚动时，背景图像不会移动；
+            url(../images/default.png)：指向图像的路径
+        */
+    position: relative;    /*相对定位*/
+    min-height: 100vh;    /*整个body会被撑开至屏幕高度一致。为了footer部分能自动置底。*/
+}
+
+a{    /*设置超链接的样式，去除文本超链接下划线*/
+    text-decoration: none;    /*无修饰*/
+}
+
+ul{    /*去除列表前面小圆点*/
+    list-style: none;
+}
+
+/*<header>CSS样式开始*--------------------------------------------------*/
+header{    /*<header>标签对应显示区域的划分和定义*/
+    height: 100px;    /*<header>区域高度250px*/
+    background: transparent;    /*<header>区域背景颜色为透明。*/
+    opacity: 1.0;    /*<header>区域内完全不透明*/
+}
+
+/*下拉导航栏CSS样式开始--------------------------------------------------*/
+.dropdown {    /*整个下拉导航栏的样式*/
+    float: left;    /*top-nav a中的元素向左浮动。*/
+    color: black;    /*top-nav a中的文字颜色为black。*/
+    text-align: center;    /*top-nav a中的文本的水平对齐方式为居中对齐。*/
+    cursor: pointer;    /*定义了鼠标指针放在top-nav a边界范围内时所用的光标形状呈现为指示链接的指针（一只手）*/
+    position: relative;    /*相对定位*/
+    display: inline-block;    /*行内块元素*/
+}
+
+.drop-btn {    /*下拉导航栏的按钮的样式*/
+    background: pink;    /*按钮颜色为pink*/
+    color: black;    /*按钮内文字颜色*/
+    padding: 14px 16px;    /*按钮中的文本的上内边距和下内边距是 14px；右内边距和左内边距是 16px。*/
+    font: 30px "JetBrains Mono Medium";    /*为按钮内的文字设置字体尺寸为30px，字体为"JetBrains Mono"*/
+    border: none;    /*设置按钮的四个边框无样式*/
+    cursor: pointer;    /*定义了鼠标指针放在按钮边界范围内时所用的光标形状呈现为指示链接的指针（一只手）*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+
+.drop-btn img{    /*设置导航栏内下拉菜单的按钮中logo的样式*/
+    width: 30px;    /*设置logo的大小*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+
+.dropdown-content {    /*设置下拉导航栏的样式*/
+    display: none;    /*默认不做显示*/
+    position: absolute;    /*绝对定位*/
+    background-color: pink;    /*背景为pink*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);    /*为了美观，设置阴影*/
+}
+
+.dropdown-content a {    /*设置下拉导航栏内的具体内容的样式*/
+    font: 30px "JetBrains Mono";    /*为top-nav a设置字体尺寸为30px，字体为"JetBrains Mono"*/
+    color: black;    /*字体颜色为black*/
+    padding: 14px 16px;    /*上内边距和下内边距是 14px；右内边距和左内边距是 16px*/
+    display: block;    /*此元素将显示为块级元素，此元素前后会带有换行符。*/
+    text-align: left;    /*文字为左对齐*/
+}
+
+.dropdown-content a:hover {    /*设置鼠标移动到下拉导航栏内具体文字上方时的样式*/
+    background: lightpink;    /*颜色变成lightpink*/
+}
+
+.dropdown:hover .dropdown-content {    /*设置鼠标移动到整个下拉导航栏上方时下拉导航栏内具体内容的样式*/
+    display: block;    /*此元素将显示为块级元素，此元素前后会带有换行符。*/
+}
+
+.dropdown:hover .drop-btn {    /*设置鼠标移动到整个下拉导航栏上方时下拉导航栏按钮的样式*/
+    background: lightpink;    /*颜色变成lightpink*/
+}
+/*下拉导航栏CSS样式结束--------------------------------------------------*/
+
+/*顶部导航栏CSS样式开始--------------------------------------------------*/
+.top-nav a{    /*设置导航栏内链接的样式*/
+    font: 30px "JetBrains Mono";    /*为top-nav a设置字体尺寸为30px，字体为"JetBrains Mono"*/
+    float: left;    /*top-nav a中的元素向左浮动。*/
+    color: black;    /*top-nav a中的文字颜色为black。*/
+    text-align: center;    /*top-nav a中的文本的水平对齐方式为居中对齐。*/
+    padding: 14px 16px;    /*top-nav a中的文本的上内边距和下内边距是 14px；右内边距和左内边距是 16px。*/
+    cursor: pointer;    /*定义了鼠标指针放在top-nav a边界范围内时所用的光标形状呈现为指示链接的指针（一只手）*/
+}
+
+.top-nav a:hover {    /*更改悬停在链接上时的样式*/
+    background: lightpink;    /*颜色变成lightpink*/
+}
+
+/*搜索框样式开始--------------------------------------------------*/
+.top-nav input[type=text] {    /*搜索框的样式*/
+    float: right;    /*向右浮动*/
+    width: 300px;    /*长度*/
+    box-sizing: border-box;    /*盒子的宽度值和高度值包含元素的内边距和边框*/
+    border: 2px solid #ccc;    /*设置四条边框的样式*/
+    border-radius: 10px;    /*圆角边框圆角的大小*/
+    font-size: 30px;    /*字体大小*/
+    background: white;    /*搜索框背景*/
+    padding: 16px 16px;    /*文本的上内边距和下内边距是 16px；右内边距和左内边距是 16px。*/
+    -webkit-transition: width 0.4s ease-in-out;    /*忽略它。。。*/
+    transition: width 0.4s ease-in-out;    /*忽略它。。。*/
+}
+
+.top-nav input[type=text]:focus {    /*鼠标点击搜索框内后的样式变化*/
+    width: 600px;    /*搜索框变长*/
+}
+/*搜索框样式结束--------------------------------------------------*/
+/*顶部导航栏CSS样式结束--------------------------------------------------*/
+/*<header>CSS样式结束--------------------------------------------------*/
+
+/*<section>CSS样式开始--------------------------------------------------*/
+section{    /*section样式*/
+    height: 800px;    /*section高度*/
+    background: transparent;    /*<section>区域背景颜色为透明。*/
+    opacity: 1.0;    /*<section>区域内完全不透明*/
+}
+
+/*../index.html主体内容CSS样式开始--------------------------------------------------*/
+.index-jz{    /*主页网页中间的内容的样式*/
+    text-align: center;    /*让div内部文字居中*/
+    padding: 200px 0;    /*文本的上内边距和下内边距是 200px；右内边距和左内边距是 0。*/
+}
+
+.index-jz h1{    /*主页网页中间内容的样式*/
+    font: 100px "JetBrains Mono ExtraBold";    /*设置文字大小和字体*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+
+.index-jz h1 img{
+    width: 400px;    /*设置图片大小*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+/*../index.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/first-code.html主体内容CSS样式开始--------------------------------------------------*/
+.first-code-jz{    /*主页网页中间的内容的样式*/
+    text-align: center;    /*让div内部文字居中*/
+    padding: 350px 0;    /*文本的上内边距和下内边距是 200px；右内边距和左内边距是 0。*/
+}
+
+.first-code-jz pre{    /*主页网页中间内容的样式*/
+    font: 60px "JetBrains Mono";    /*设置文字大小和字体*/
+}
+/*../pages/first-code.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/leave-message.html主体内容CSS样式开始--------------------------------------------------*/
+/* Style inputs */
+.column input[type=text], select, textarea {    /*上面四个输入内容的区域的样式设定*/
+    width: 100%;    /*宽度*/
+    padding: 12px;    /*搜索框的内边距是12px*/
+    border: 1px solid #ccc;    /*四边的设置*/
+    margin-top: 6px;    /*距离上面的距离*/
+    margin-bottom: 16px;    /*距离下面的距离*/
+    resize: vertical;    /*用户可调整元素的高度。*/
+}
+
+.column input[type=submit] {    /*提交按钮的样式*/
+    background: #4CAF50;    /*背景色*/
+    color: white;    /*文字颜色*/
+    padding: 12px 20px;    /*上下内边距12px，左右内边距20px*/
+    border: none;    /*无边框*/
+    cursor: pointer;    /*定义了鼠标指针放在top-nav a边界范围内时所用的光标形状呈现为指示链接的指针（一只手）*/
+}
+
+.column input[type=submit]:hover {    /*鼠标在提交按钮上时变化的样式*/
+    background: #45a049;    /*背景色*/
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 10px;    /*边框的圆角*/
+    background: transparent;    /*区域背景颜色为透明。*/
+    padding: 75px 0;    /*上下内边距75px，左右内边距0*/
+}
+
+/* Create two columns that float next to each other */
+.column {
+    float: right;    /*向右浮动*/
+    width: 50%;    /*宽度占50%*/
+    margin-top: 50px;    /*距离上面的元素的距离*/
+    padding: 20px;    /*四边的内边距*/
+}
+
+/* Clear floats after the columns */
+.row:after{    /*after伪元素*/
+    content: "";    /*content 属性与 :before 及 :after 伪元素配合使用，来插入生成内容。*/
+    display: table;    /*此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。*/
+    clear: both;    /*在左右两侧均不允许浮动元素。*/
+}
+/*../pages/leave-message.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/downloads.html主体内容CSS样式开始--------------------------------------------------*/
+.dl-h3{    /*标题样式*/
+    text-align: center;    /*文字居中显示*/
+    font: 50px "JetBrains Mono";    /*字号字体*/
+    margin-top: 50px;    /*距离上面的距离*/
+}
+
+.dl-t{    /*整个表格*/
+    border: 5px solid black;    /*边框设置*/
+    font: 25px "JetBrains Mono";    /*字号字体*/
+    text-align: center;    /*文字对齐方式*/
+    margin: 100px 560px;    /*上下外边距100px，左右外边距560px*/
+}
+
+.dl-t td{    /*单个表格内文字的样式*/
+    padding: 5px;    /*内边距5px*/
+}
+/*../pages/downloads.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/notes-display主体内容CSS样式开始--------------------------------------------------*/
+.nd-img{    /*设置图片样式*/
+    height: 100%;    /*图片宽度和容器一致*/
+    display: block;    /*此元素将显示为块级元素，此元素前后会带有换行符。*/
+    margin: 0 auto;    /*居中*/
+}
+/*../pages/notes-display主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/team-members.html主体内容CSS样式开始--------------------------------------------------*/
+.tm h3{    /*标题样式*/
+    text-align: center;    /*文字居中显示*/
+    font: 50px "JetBrains Mono";    /*字号字体*/
+    margin-top: 60px;    /*距离上面的距离*/
+}
+
+.tm table{    /*整个表格*/
+    border: 5px solid black;    /*边框设置*/
+    border-radius: 10px;    /*边框圆角设置*/
+    font: 25px "JetBrains Mono";    /*字号字体*/
+    text-align: center;    /*文字对齐方式*/
+    margin: 100px 490px;    /*上下外边距100px，左右外边距560px*/
+}
+
+.tm td{    /*单个表格内文字的样式*/
+    padding: 5px;    /*内边距5px*/
+}
+/*../pages/team-members.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/html-label.html主体内容CSS样式开始--------------------------------------------------*/
+.hl{    /*标题样式*/
+    text-align: center;    /*文字居中显示*/
+    font: 50px "JetBrains Mono";    /*字号字体*/
+    margin-top: 50px;    /*距离上面的距离*/
+}
+
+#hl{    /*整个表格*/
+    border: 5px solid black;    /*边框设置*/
+    border-radius: 5px;    /*边框圆角设置*/
+    font: 20px "JetBrains Mono";    /*字号字体*/
+    text-align: center;    /*文字对齐方式*/
+    margin: 80px 340px;    /*上下外边距100px，左右外边距560px*/
+}
+
+#hl td{    /*单个表格内文字的样式*/
+    padding: 5px;    /*内边距5px*/
+}
+/*../pages/html-label.html主体内容CSS样式结束--------------------------------------------------*/
+
+/*../pages/common-url.html主体内容CSS样式开始--------------------------------------------------*/
+.cu{    /*标题样式*/
+    text-align: center;    /*文字居中显示*/
+    font: 60px "JetBrains Mono";    /*字号字体*/
+    margin-top: 80px;    /*距离上面的距离*/
+}
+
+#cu{    /*整个表格*/
+    border: 5px solid black;    /*边框设置*/
+    border-radius: 5px;    /*边框圆角设置*/
+    font: 30px "JetBrains Mono";    /*字号字体*/
+    text-align: center;    /*文字对齐方式*/
+    margin: 100px 400px;    /*上下外边距100px，左右外边距560px*/
+}
+
+#cu td{    /*单个表格内文字的样式*/
+    padding: 5px;    /*内边距5px*/
+}
+/*../pages/common-url.html主体内容CSS样式结束--------------------------------------------------*/
+/*<section>CSS样式结束--------------------------------------------------*/
+
+/*<footer>CSS样式开始--------------------------------------------------*/
+footer{    /*将整个footer置底*/
+    position: absolute;    /*绝对定位*/
+    bottom: 0;    /*和网页的底边边缘的距离为零，将footer置底*/
+    width: 100%;    /*footer的宽度*/
+    height: 50px;    /*footer的高度*/
+    background: transparent;    /*<footer>区域背景颜色为透明。*/
+    opacity: 1.0;    /*<footer>区域内完全不透明*/
+}
+
+.footer-h3{    /*设置文字*/
+    font: 20px "JetBrains Mono Thin";    /*设置字号字体*/
+    text-align: center;    /*文字居中对齐*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+.footer-h3 img{    /*设置logo*/
+    width: 30px;    /*设置图片大小*/
+    vertical-align:middle    /*让图片和文字垂直居中对齐*/
+}
+/*<footer>CSS样式结束--------------------------------------------------*/

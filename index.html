@@ -1,62 +1,22 @@
-<!--
-    网页种类：主页、表单（注册、登录、留言板）、表格（自我介绍）、下载页面、音乐播放页面、电子书页面
--->
-
-<!DOCTYPE html>
-<!--
-    <!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前；
-    <!DOCTYPE> 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令；
-    提示：请始终向 HTML 文档添加 <!DOCTYPE> 声明，这样浏览器才能获知文档类型；
-    注释：<!DOCTYPE> 声明没有结束标签；
-    提示：<!DOCTYPE> 声明对大小写不敏感。
--->
-
-    <html lang="zh">
-    <!--
-        <html> 标签可告知浏览器其自身是一个 HTML 文档；
-        此元素可告知浏览器其自身是一个 HTML 文档；
-        <html> 与 </html> 标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体；
-        正如您所了解的那样，文档的头部由 <head> 标签定义，而主体由 <body> 标签定义。
-        注释：即使 html 元素是文档的根元素，它也不包含 doctype 元素。doctype 元素必须位于 html 元素之前。
-        lang 属性规定元素内容的语言。
-    -->
-
-        <head>
-        <!--
-            <head> 标签用于定义文档的头部，它是所有头部元素的容器；
-            <head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等；
-            文档的头部描述了文档的各种属性和信息，包括文档的标题、在 Web 中的位置以及和其他文档的关系等；
-            绝大多数文档头部包含的数据都不会真正作为内容显示给读者；
-            下面这些标签可用在 head 部分： <base> , <link> , <meta> , <script> , <style> ,以及 <title> ；
-            <title> 定义文档的标题，它是 head 部分中唯一必需的元素。
-            提示：应该把 <head> 标签放在文档的开始处，紧跟在 <html> 后面，并处于 <body> 标签之前；
-            提示：请记住始终为文档规定标题！
-        -->
-
-            <!--<base href=" https://rosemarymdx.github.io " target=" _blank ">
+<!DOCTYPE html>    <!--<!DOCTYPE> 指示 web 浏览器该页面使用 HTML5 版本进行编写的指令-->
+    <html lang="zh">    <!--<html> 标签可告知浏览器其自身是一个 HTML 文档；lang 属性规定元素内容的语言。-->
+        <head>    <!--<head> 标签用于定义文档的头部，它是所有头部元素的容器；-->
             <!--
-                <base> 标签为页面上的所有链接规定默认地址或默认目标；
-                通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白；
-                使用 <base> 标签可以改变这一点；
-                浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL；
-                这其中包括 <a>、<images>、<link>、<form> 标签中的 URL；
-                注释：<base> 标签必须位于 head 元素内部。
-                href 属性规定页面中所有相对链接的基准 URL；
-                target 属性规定在何处打开页面上的所有链接。
-            -->
-
-            <link href=" css/index.css " rel=" stylesheet " type=" text/css " media=" all ">
-            <!--
-                <link> 标签定义文档与外部资源的关系；
-                <link> 标签最常见的用途是链接样式表。
-                注释：link 元素是空元素，它仅包含属性；
-                注释：此元素只能存在于 head 部分，不过它可出现任何次数。
-                href 属性规定被链接文档的位置；
-                rel 属性规定当前文档与被链接文档之间的关系；
-                type 属性规定被链接文档的 MIME 类型；
-                media 属性规定被链接文档将显示在什么设备上。
-            -->
-
+            <base href="https://rosemarymdx.github.io" target="_blank">
+                <!--
+                    <base> 标签为页面上的所有链接规定默认地址或默认目标；
+                    href 属性规定页面中所有相对链接的基准 URL；
+                    target 属性_blank 值：在新窗口中打开被链接文档。
+                -->
+            <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+                <!--
+                    <link> 标签定义文档与外部资源的关系；
+                    href 属性：规定被链接文档的位置；
+                    rel 属性stylesheet 值：文档的外部样式表。
+                    type 属性：规定被链接文档的 MIME 类型；
+                    media 属性all 值：规定被链接文档将显示在所有设备上。
+                -->
+            <link rel="shortcut icon" href="images/FaviconTransparent.ico">    <!--为网页标题添加图标-->
             <!--
                 <meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词；
                 <meta> 标签位于文档的头部，不包含任何内容；
@@ -82,232 +42,59 @@
                 name 属性中 copyright 值用于标注版权信息；
                 name 属性中 reply-to 值设定联系人的邮箱。
             -->
-            <meta charset=" UTF-8 ">
-            <!--
-                charset 属性规定 HTML 文档的字符编码；
-                常用值：
-                    UTF-8 - Unicode 的字符编码，
-                    ISO-8859-1 - 拉丁字母的字符编码；
-                理论上，可以使用任何字符编码，但没有浏览器能够理解所有编码；
-                字符编码使用得越广泛，浏览器理解它的机会就越大。
-            -->
-            <meta name=" author " content=" 黄黎敏（学号22116101235），黄盈盈（学号22116101252），史佳敏（学号22116101250），水含瑾（学号22116101224），
-            严雨蒙（学号22116101267），余浩琰（学号22116101275），虞薇男（学号22116101244），张欣怡（学号22116101232）（按拼音排序） ">
-            <!--name 属性中 author 值规定文档作者的姓名。-->
-            <meta name=" description " content=" 前端大作业，迷迭香Rosemary博客 ">
-            <!--name 属性中 description 值规定页面的描述，搜索引擎可以选择此描述来显示搜索结果。-->
-            <meta name=" keywords " content=" 迷迭香,Rosemary,前端大作业,网站设计 ">
-            <!--
-                name 属性中 keywords 值规定以逗号分隔的关键字列表 - 与页面相关（通知搜索引擎该页面的内容）；
-                提示：请始终规定关键字（搜索引擎需要对页面进行分类）。
-            -->
-            <meta name=" generator " content=" Webstorm ">
-            <!--name 属性中 generator 值用于标明网页是什么软件做的。-->
-            <meta name=" robots " content=" none ">
-            <!--name 属性中 robots 值用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。-->
-            <meta name=" build " content=" 2022.12.04 ">
-            <!--name 属性中 build 值通过设置可以设定网站建立的日期。-->
-            <meta name=" copyright " content=" 迷迭香Rosemary ">
-            <!--name 属性中 copyright 值用于标注版权信息。-->
-            <meta name=" reply-to " content=" rosemarymdx@163.com,y15601379543@gmail.com ">
-            <!--name 属性中 reply-to 值设定联系人的邮箱。-->
-
-            <script src=" JavaScript/index.js "></script>
-
-            <title> 迷迭香Rosemary </title> <!--<title> 元素可定义文档的标题。-->
-
+            <meta charset="UTF-8">    <!--charset 属性规定 HTML 文档的字符编码为UTF-8 - Unicode 的字符编码，-->
+            <meta name="author" content="黄黎敏（学号22116101235），黄盈盈（学号22116101252），史佳敏（学号22116101250），水含瑾（学号22116101224），
+            严雨蒙（学号22116101267），余浩琰（学号22116101275），虞薇男（学号22116101244），张欣怡（学号22116101232）（按拼音排序）">
+                <!--name 属性中 author 值规定文档作者的姓名。-->
+            <meta name="description" content="个人博客系统的设计与实现-迷迭香Rosemary博客">    <!--name 属性中 description 值规定页面的描述，搜索引擎可以选择此描述来显示搜索结果。-->
+            <meta name="keywords " content="迷迭香,Rosemary,前端大作业,网站设计">
+                <!--name 属性中 keywords 值规定以逗号分隔的关键字列表 - 与页面相关（通知搜索引擎该页面的内容）。-->
+            <meta name="generator" content="Webstorm">    <!--name 属性中 generator 值用于标明网页是什么软件做的。-->
+            <meta name="robots" content="none">    <!--name 属性中 robots 值用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。-->
+            <meta name="build" content="2022.12.04">    <!--name 属性中 build 值通过设置可以设定网站建立的日期。-->
+            <meta name="copyright" content=" 迷迭香Rosemary">    <!--name 属性中 copyright 值用于标注版权信息。-->
+            <meta name="reply-to" content="rosemarymdx@163.com,y15601379543@gmail.com">    <!--name 属性中 reply-to 值设定联系人的邮箱。-->
+            <title>迷迭香 Rosemary</title>    <!--<title> 元素定义文档的标题为“迷迭香Rosemary”。-->
         </head>
-
-        <body>
-        <!--
-            body 元素定义文档的主体;
-            body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等）。
-        -->
-
-            <header>
-            <!--
-                <header> 标签定义文档的页眉（介绍信息）；
-                header 结构元素：通常用来展示网站的标题、企业或公司的logo图片、广告（Flash等格式）、网站导航条等。
-            -->
-                <nav class=" topnav "> <!--<nav> 标签定义导航链接的部分；提示：如果文档中有“前后”按钮，则应该把它放到 <nav> 元素中。-->
-                    <span class=" active " onclick="openNav()">&#9776; 迷迭香 Rosemary </span>
-
+        <body>    <!--body 元素定义文档的主体;-->
+            <audio src= "audio/backmusic.mp3" autoplay="autoplay" loop="loop"></audio>
+                <!--<audio> 标签定义音乐音频流。autoplay：自动播放；loop：循环播放-->
+            <header>    <!--网页的头部部分-->
+                <nav class="dropdown">    <!--<nav> 标签定义导航链接的部分。下拉导航栏。-->
                     <!--
-                        <h1> - <h6> 标签可定义标题；
-                        <h1> 定义最大的标题，<h6> 定义最小的标题；
-                        由于 h 元素拥有确切的语义，因此请您慎重地选择恰当的标签层级来构建文档的结构；
-                        因此，请不要利用标题标签来改变同一行中的字体大小；
-                        相反，我们应当使用层叠样式表定义来达到漂亮的显示效果。
+                        .class 选择器
+                        定义和用法:.class 选择器选取带有指定类 (class) 的元素。
+                        后不再做.class 选择器的注释。
                     -->
-
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" / "> 首页 </a>
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" pages/firstcode.html "> 本站第一行代码展示 </a>
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" pages/productionprocess.html "> 网站制作剪影 </a>
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" pages/leavemessage.html "> 留言板 </a>
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" pages/musicplaying.html "> 音乐播放 </a>
-                    <!--
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                    <a href=" pages/signin.html "> 登录 </a>
-                    <a href=" pages/login.html "> 注册 </a>
-                    <input type="text" placeholder="搜索..">
+                    <a href="index.html">
+                        <button class="drop-btn">    <!--下拉导航栏的主体按钮-->
+                            <img src="images/logo/logo1300透明.png" alt="">    <!--在按钮中添加网站logo，alt为图片的替代文本-->
+                            迷迭香 Rosemary    <!--按钮中的文字-->
+                        </button>
+                    </a>
+                    <div class="dropdown-content">    <!--<div> 可定义文档中的分区（division）。定义下拉导航栏的内容分区。-->
+                        <a href="pages/team-members.html">小组成员介绍</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                        <a href="pages/notes-display/1.html">第一章笔记在线阅读</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                        <a href="pages/html-label.html">常用HTML标签查询</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                        <a href="pages/common-url.html">常用网址</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                        <a href="pages/downloads.html">历次作业下载</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                    </div>
                 </nav>
-
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href=" pages/teammembers.html "> 小组成员介绍 </a>
-                    <a href=" /pages/notesdisplay/ "> 课程笔记展示 </a>
-                    <a href=" pages/htmllabel/ "> 常用HTML标签查询 </a>
-                    <a href=" pages/commonurl.html "> 常用网址 </a>
-                    <a href="pages/downloads.html "> 常用下载 </a>
-                </div>
-
+                <nav class="top-nav">    <!--<nav> 标签定义导航链接的部分。顶部导航栏。-->
+                    <a href="index.html">首页</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                    <a href="pages/first-code.html">本站第一行代码展示</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                    <a href="pages/effect.html">前期网站效果图</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                    <a href="pages/leave-message.html">留言板</a>    <!--<a> 标签定义超链接，用于从当前页面链接到其他页面。-->
+                    <input type="text" placeholder="搜索..">    <!--装饰搜索框-->
+                </nav>
             </header>
-
-            <section>
-                <!--
-                    <section> 标签定义文档中的节（ section 、区段）。比如章节、页眉、页脚或文档中的其他部分；
-                    section 结构元素：一个网页中要显示的主体内容通常被放置在 section 结构元素中，
-                    每个 section 结构元素都应该有一个标题来显示当前展示的主要内容的标题信息；
-                    每个 section 结构元素中通常还应该包括一个或多个 section 元素或 article 元素，
-                    用来显示网页主体内容中每一个相对独立的部分。
-                -->
-
-
-                <div class="juzhong">
-                    <!--
-                        <div> 可定义文档中的分区或节（division/section）；
-                        <div> 标签可以把文档分割为独立的、不同的部分。它可以用作严格的组织工具，并且不使用任何格式与其关联；
-                        如果用 id 或 class 来标记 <div>，那么该标签的作用会变得更加有效；
-                        <div> 是一个块级元素；
-                        这意味着它的内容自动地开始一个新行；
-                        实际上，换行是 <div> 固有的唯一格式表现；
-                        可以通过 <div> 的 class 或 id 应用额外的样式；
-                        不必为每一个 <div> 都加上类或 id，虽然这样做也有一定的好处；
-                        可以对同一个 <div> 元素应用 class 或 id 属性，但是更常见的情况是只应用其中一种；
-                        这两者的主要差异是，class 用于元素组（类似的元素，或者可以理解为某一类元素），而 id 用于标识单独的唯一的元素。
-                    -->
-
-                    <!--
-                        以下元素（ HTML <em> <strong> <dfn> <code> <samp> <kbd><var> <cite> 标签）都是短语元素；
-                        虽然这些标签定义的文本大多会呈现出特殊的样式，但实际上，这些标签都拥有确切的语义；
-                        我们并不反对使用它们，但是如果您只是为了达到某种视觉效果而使用这些标签的话，我们建议您使用样式表，那么做会达到更加丰富的效果。
-                        <strong> 把文本定义为语气更强的强调的内容；
-                        <em> 把文本定义为强调的内容。
-                    -->
-                    <h1 class="main">迷迭香Rosemary 小组博客</h1>
+            <section>    <!--<section> 标签定义文档中的节（ section 、区段）。网页中间部分，即每个人编写的代码部分。-->
+                <div class="index-jz">    <!--<div> 可定义文档中的分区（division）。定义主页居中的标题分区。-->
+                    <h1><img src="images/logo/logo1300透明.png" alt="">迷迭香 Rosemary</h1>
                 </div>
-
-
-
-                <ul> <!--<ul> 标签定义无序列表；提示：请使用样式来定义列表的类型。-->
-                                        <!--
-                        <li> 标签定义列表项目；
-                        <li> 标签可用在有序列表 (<ol>) 和无序列表 (<ul>) 中；
-                        提示：请使用 CSS 来定义列表和列表项目的类型。
-                        <a> 标签定义超链接，用于从一张页面链接到另一张页面；
-                        <a> 元素最重要的属性是 href 属性，它指示链接的目标；
-                        提示：可以使用 CSS 伪类 向文本超链接添加复杂而多样的样式；
-                        提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性；
-                        提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）；
-                        提示：请使用 CSS 来设置链接的样式。
-                        <a> 标签的 href 属性用于指定超链接目标的 URL；
-                        href 属性的值可以是任何有效文档的相对或绝对 URL，包括片段标识符和 JavaScript 代码段；
-                        如果用户选择了 <a> 标签中的内容，那么浏览器会尝试检索并显示 href 属性指定的 URL 所表示的文档，或者执行 JavaScript 表达式、方法和函数的列表；
-                        注意：<a> 标签中必须提供 href 属性或 name 属性。
-                    -->
-                </ul>
-
-
-                <!--搜索栏HTML（CSS前缀aa）-->
-                <nav>
-                    <ul>
-                    </ul>
-                </nav>
             </section>
-            <aside>
-            <!--
-                <aside> 标签定义其所处内容之外的内容；
-                aside 结构元素：通常用来展示与当前网页或整个网站相关的一些辅助信息；
-                aside 结构元素可以有很多形式，其中最常见的形式是侧边栏。
-            -->
-
-            </aside>
-            <footer>
-            <!--
-                footer 结构元素：通常，每一个网页中都具有 footer 结构元素，
-                用来放置网站的版权声明和备案信息等与法律相关的信息，
-                也可以放置企业的联系电话和传真的联系信息。
-            -->
+            <footer>    <!--网页的足部部分-->
+                <h3 class="footer-h3"><img src="images/logo/logo1300透明.png" alt="">迷迭香小组制作&nbsp;&nbsp;Power By Rosemary Studio</h3>
             </footer>
         </body>
     </html>

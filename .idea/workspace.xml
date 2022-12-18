@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/commonurl.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/common-url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/downloads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/firstcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/first-code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/leavemessage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/leave-message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/musicplaying.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/production-process.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/productionprocess.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teammembers.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,21 +56,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "H:/Code/yaorongke.github.io-main",
+    "last_opened_file_path": "H:/Code/GitHub Repository/RoseMaryMDX.github.io",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeWithMe",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Code With Me",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages\htmllabel" />
       <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages" />
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages\htmllabel" />
       <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io" />
       <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\docs\pages\notesdisplay" />
       <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\docs\pages\index" />
@@ -82,7 +94,10 @@
       <workItem from="1670785445124" duration="84000" />
       <workItem from="1670809688660" duration="22513000" />
       <workItem from="1670953740278" duration="7610000" />
-      <workItem from="1670964757415" duration="3738000" />
+      <workItem from="1670964757415" duration="4615000" />
+      <workItem from="1671093458221" duration="30000" />
+      <workItem from="1671198191866" duration="2908000" />
+      <workItem from="1671357884788" duration="35582000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
