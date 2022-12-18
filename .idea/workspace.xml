@@ -5,18 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/commonurl.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/common-url.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/downloads.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/firstcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/first-code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/leavemessage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/leave-message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/musicplaying.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/production-process.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/productionprocess.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teammembers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/effect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/.idea/yaorongke.github.io-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/2021/06/10/hello-world/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/2021/06/10/测试文章/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/2021/06/10/测试文章/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/archives/2021/06/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/archives/2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/archives/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/categories/Java/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/css/gitalk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/img/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/img/police_beian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/boot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/color-schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/img-lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/leancloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/local-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/js/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/lib/hint/hint.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/links/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/local-search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/tags/原创/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/effect/xml/local-search.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "H:/Code/GitHub Repository/RoseMaryMDX.github.io",
+    "last_opened_file_path": "H:/Code/GitHub Repository/RoseMaryMDX.github.io/pages/notes-display",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io\pages\notes-display" />
       <recent name="H:\Code\GitHub Repository\RoseMaryMDX.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -98,6 +126,7 @@
       <workItem from="1671093458221" duration="30000" />
       <workItem from="1671198191866" duration="2908000" />
       <workItem from="1671357884788" duration="35582000" />
+      <workItem from="1671397923943" duration="8885000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
