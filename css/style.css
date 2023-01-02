@@ -5,9 +5,9 @@
     src:url('../fonts/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff');    /*定义字体文件路径*/
 }
 
-* {    /*针对所有的HTML元素定义样式*/
-    margin: 0;    /*外边距为0px*/
-    padding: 0;    /*内边距为0px*/
+*{    /*针对所有的HTML元素定义样式*/
+    margin: 0;    /*外边距为0*/
+    padding: 0;    /*内边距为0*/
     box-sizing: border-box;    /*盒子的宽度值和高度值包含元素的内边距和边框*/
 }
 
@@ -33,10 +33,6 @@ body{
 
 a{    /*设置超链接的样式，去除文本超链接下划线*/
     text-decoration: none;    /*无修饰*/
-}
-
-ul{    /*去除列表前面小圆点*/
-    list-style: none;
 }
 
 /*<header>CSS样式开始*--------------------------------------------------*/
@@ -74,7 +70,7 @@ header{    /*<header>标签对应显示区域的划分和定义*/
 .dropdown-content {    /*设置下拉导航栏的样式*/
     display: none;    /*默认不做显示*/
     position: absolute;    /*绝对定位*/
-    background-color: pink;    /*背景为pink*/
+    background: pink;    /*背景为pink*/
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);    /*为了美观，设置阴影*/
 }
 
@@ -122,7 +118,7 @@ header{    /*<header>标签对应显示区域的划分和定义*/
     border-radius: 10px;    /*圆角边框圆角的大小*/
     font-size: 30px;    /*字体大小*/
     background: white;    /*搜索框背景*/
-    padding: 16px 16px;    /*文本的上内边距和下内边距是 16px；右内边距和左内边距是 16px。*/
+    padding: 16px;    /*文本的上内边距和下内边距是 16px；右内边距和左内边距是 16px。*/
     -webkit-transition: width 0.4s ease-in-out;    /*忽略它。。。*/
     transition: width 0.4s ease-in-out;    /*忽略它。。。*/
 }
@@ -139,6 +135,7 @@ section{    /*section样式*/
     height: 800px;    /*section高度*/
     background: transparent;    /*<section>区域背景颜色为透明。*/
     opacity: 1.0;    /*<section>区域内完全不透明*/
+    border:3px solid green;
 }
 
 /*../index.html主体内容CSS样式开始--------------------------------------------------*/
@@ -152,7 +149,7 @@ section{    /*section样式*/
     vertical-align:middle    /*让图片和文字垂直居中对齐*/
 }
 
-.index-jz h1 img{
+.index-jz img{
     width: 400px;    /*设置图片大小*/
     vertical-align:middle    /*让图片和文字垂直居中对齐*/
 }
