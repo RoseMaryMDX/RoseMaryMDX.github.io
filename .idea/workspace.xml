@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/FaviconWhiteRound.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/topsearch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/effect.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/effect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/leave-message.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/leave-message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/文件/迷迭香Rosemary小组完整记录表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/文件/迷迭香Rosemary小组完整记录表.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="43a4fd9e-890d-4983-ab9a-40c8fc633ed2" name="变更" comment="Create workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "H:/Code/WZBC 2022202301 Web-Design/书籍/978-7-302-52199-0/HTML5+CSS3网页设计基础-080723/下载信息/实例源代码",
+    "last_opened_file_path": "/Users/ruyan/Documents/GitHub/RoseMaryMDX.github.io",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,6 +89,7 @@
       <workItem from="1671397923943" duration="9747000" />
       <workItem from="1671408450611" duration="367000" />
       <workItem from="1671415349919" duration="12305000" />
+      <workItem from="1677595105571" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Create workspace.xml">
       <created>1670155627764</created>
